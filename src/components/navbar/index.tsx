@@ -1,22 +1,28 @@
-import { Component, Options } from "./styles";
-import { MenuIcon } from "../menu-icon";
+import { Components, Options } from "./styles";
 
 export const Navbar = () => {
   return (
     <>
-      <Component>
-        <h1>André Lusegardis</h1>
+      <Components>
+        {/* <h1>André Lusegardis</h1> */}
 
         <Options>
-          <MenuIcon />
-          {/* <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
-          </ul> */}
+          <ul>
+            <li>
+              <button>Home</button>
+            </li>
+            <li>
+              <button>About</button>
+            </li>
+            <li>
+              <button>Portfolio</button>
+            </li>
+            <li>
+              <button>Contact</button>
+            </li>
+          </ul>
         </Options>
-      </Component>
+      </Components>
     </>
   );
 };

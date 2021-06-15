@@ -116,7 +116,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: var(--blue-700);
+    background: var(--gray-700);
     color: var(--white);
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;

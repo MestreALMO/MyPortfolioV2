@@ -2,6 +2,7 @@ import Head from "next/head";
 
 import { GlobalStyle } from "../styles/globals";
 import { Navbar } from "../components/navbar";
+import { Opening } from "../components/opening";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
 
       <GlobalStyle />
 
+      <Opening />
       <Navbar />
     </>
   );
